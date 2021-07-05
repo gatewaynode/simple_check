@@ -6,3 +6,7 @@ ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head
 # Files with open connections on the network
 
 lsof -i
+
+# Open ports
+
+netstat -lntu

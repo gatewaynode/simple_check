@@ -10,3 +10,7 @@ lsof -i
 # Open ports
 
 netstat -lntu
+
+# or this if netstat isn't available
+# ss -lntu
+
